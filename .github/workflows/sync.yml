@@ -1,0 +1,37 @@
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+name: Sync fork with upstream (auto-merge)
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream remote and fetch
+        run: |
+          git remote add upstream https://github.com/asLody/VirtualApp.git || true
+          git fetch upstream --prune
+
+      - name: Merge upstream into default branch
+        run: |
+          git checkout master            # 如果你的默认分支不是 main，请改为 master 或其他
+          git merge --no-edit upstream/master
+
+      - name: Push merged changes to origin
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 用 token 推送，确保有权限
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:master
