@@ -131,7 +131,7 @@ VA Other features
 Process-level "virtual machine", VA's unique implementation model makes its performance almost the same as that of the native APP, and does not need a long startup of ordinary virtual machines.
 
 - Full version support<br/>
-Support 5.0-15.0, 32-bit/64-bit APP, ARM and X86 processor. And support Android version in the future which will be updated.
+Support 5.0-16.0, 32-bit/64-bit APP, ARM and X86 processor. And support Android version in the future which will be updated.
 
 - Easy Expansion and Integration<br/>
 The integration of VA is similar to the normal Android library, even if your APP has been online, you can conveniently integrate VA and enjoy the capability brought by VA.
@@ -179,6 +179,7 @@ System version | Whether to support
 13.0 | support
 14.0 | support
 15.0 | support
+16.0 | support
 <br/>
 
 
@@ -214,7 +215,7 @@ Please refer to the VA development documentation：[Development document](doc/VA
 
 License Instructions
 ------
-VirtualApp virtual machine technology belongs to: Jining Luohe Network Technology Co., LTD. It applied for several VirtualApp intellectual property rights from 2015 to 2023 and` is protected by the Intellectual property Law of the People's Republic of China`.When you need to use the code on Github, **please purchase a business license**，and receive the full source code of the latest VirtualApp business version.Hundreds of licensed customers are paying to use the business version of VirtualApp code, and the app integrated with VirtualApp code is launched more than 200 million times a day. Many Android engineers provided us with user feedback in different scenarios, and through our technical team's continuous optimization and iteration, VirtualApp Business Edition code has better performance and higher compatibility. `The company of that year will become one of them after obtaining the license, and enjoy the technological achievements after the continuous iteration. And we can interact and collaborate with our licensed customers operationally, technically and commercially.`
+VirtualApp virtual machine technology belongs to: Jining Luohe Network Technology Co., LTD. It applied for several VirtualApp intellectual property rights from 2015 to 2026 and` is protected by the Intellectual property Law of the People's Republic of China`.When you need to use the code on Github, **please purchase a business license**，and receive the full source code of the latest VirtualApp business version.Hundreds of licensed customers are paying to use the business version of VirtualApp code, and the app integrated with VirtualApp code is launched more than 200 million times a day. Many Android engineers provided us with user feedback in different scenarios, and through our technical team's continuous optimization and iteration, VirtualApp Business Edition code has better performance and higher compatibility. `The company of that year will become one of them after obtaining the license, and enjoy the technological achievements after the continuous iteration. And we can interact and collaborate with our licensed customers operationally, technically and commercially.`
 
 <br/>
 Person in charge: Mr. Zhang <br/>
@@ -233,8 +234,8 @@ If you use VirtualApp for **internal use, business profit or upload it to the ap
 Major updates of the business version
 ------
 
-1. Support Android 15.0
-2. Seccomp-Bpf Support.
+1. Support Android 16.0
+2. Support Seccomp-Bpf.
 3. Not easily misreported by anti-virus software
 4. Framework optimization, performance greatly improved
 5. Mobile system and APP compatibility greatly improved
@@ -243,7 +244,7 @@ Major updates of the business version
 8. Built-in `XPosed Hook` framework
 9. Add positioning mock code
 10. Add code to change device 
-11. Nearly 500 other fixes and improvements
+11. Nearly 700 other fixes and improvements
 <br>
 
 
