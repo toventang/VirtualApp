@@ -257,11 +257,25 @@ VirtualApp虚拟机技术归属于：山东盒一网络科技有限公司（原�
 2017年-2026年商业版代码更新详细
 ------
 
+**2025年12月31号 至 2026年 1月30号 商业版代码更新内容**
+
+655、增强环境检测方面的处理<br/>
+654、16.0上AdvancedProtectionService以及ISupervisionManager适配<br/>
+653、fix AttributionSource子类验证报错：AttributionSource should be unparceled during a binder<br/>
+652、fix ParceledListSlice->getList返回null<br/>
+651、对于一些没有权限的函数调用进行处理<br/>
+650、maps处理方式更新<br/>
+649、对fp指令范围进行判断,避免crash<br/>
+
+
 **2025年12月19号 至 2025年 12月30号 商业版代码更新内容**
 
 648、从处理openat2与faccessat2，seccomp等调用<br/>
 647、适配APP中对seccomp-bpf的调用<br/>
 646、处理某些应用因为检测打不开<br/>
+
+<details>
+<summary>2017年 12月 至 2025年 12 月 18 日 商业版代码更新内容(下拉打开)</summary>  <br/>
 
 **2025年12月3号 至 2025年 12月18号 商业版代码更新内容**
 
@@ -269,8 +283,6 @@ VirtualApp虚拟机技术归属于：山东盒一网络科技有限公司（原�
 644、系统路径调整<br/>
 643、maps调整<br/>
 
-<details>
-<summary>2017年 12月 至 2025年 12 月 2 日 商业版代码更新内容(下拉打开)</summary>  <br/>
 
 **2025年11月12号 至 2025年 12月2号 商业版代码更新内容**
 
