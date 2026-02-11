@@ -257,6 +257,12 @@ VirtualApp虚拟机技术归属于：山东盒一网络科技有限公司（原�
 2017年-2026年商业版代码更新详细
 ------
 
+**2026年2月1号 至 2026年 2月11号 商业版代码更新内容**
+
+658、 修复NativeEngine.onGetCallingUid在VisitRoots的时候crash<br/>
+657、 Secomp-Bpf开启后，执行execve时支持fd<br/>
+656、fix  getFromLocation crash on 15.0+<br/>
+
 **2025年12月31号 至 2026年 1月30号 商业版代码更新内容**
 
 655、增强环境检测方面的处理<br/>
@@ -268,14 +274,15 @@ VirtualApp虚拟机技术归属于：山东盒一网络科技有限公司（原�
 649、对fp指令范围进行判断,避免crash<br/>
 
 
+<details>
+<summary>2017年 12月 至 2025年 12 月 30 日 商业版代码更新内容(下拉打开)</summary>  <br/>
+
 **2025年12月19号 至 2025年 12月30号 商业版代码更新内容**
 
 648、从处理openat2与faccessat2，seccomp等调用<br/>
 647、适配APP中对seccomp-bpf的调用<br/>
 646、处理某些应用因为检测打不开<br/>
 
-<details>
-<summary>2017年 12月 至 2025年 12 月 18 日 商业版代码更新内容(下拉打开)</summary>  <br/>
 
 **2025年12月3号 至 2025年 12月18号 商业版代码更新内容**
 
